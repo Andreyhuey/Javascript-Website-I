@@ -90,6 +90,7 @@ function game() {
     console.log(`Round ${i + 1}`);
     console.log(`You picked ${playerSelection}`);
     console.log(`Computer picked ${computerSelection}`);
+    alert(`Computer picked ${computerSelection}`);
     console.log(round_result);
     alert(round_result);
     console.log(`Score: Player ${score[0]} - Computer ${score[1]}`);
