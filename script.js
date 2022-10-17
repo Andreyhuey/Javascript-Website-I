@@ -93,9 +93,7 @@ function game() {
     console.log(round_result);
     alert(round_result);
     console.log(`Score: Player ${score[0]} - Computer ${score[1]}`);
-    alert(
-      `In Round ${i + 1}, You Scored ${score[0]} & Computer Scored ${score[1]}`
-    );
+    alert(`In Round ${i + 1}, You have ${score[0]} & Computer has ${score[1]}`);
     // The first to win 3 rounds Wins.
     if (i >= 2) {
       if (score[0] == 3) {
