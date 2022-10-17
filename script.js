@@ -32,7 +32,7 @@ function playRound(playerSelection, computerSelection, score) {
     case "rock":
       switch (computerSelection) {
         case "rock":
-          round_result = `It's is a draw.`;
+          round_result = `It's is a tie.`;
           break;
         case "paper":
           round_result = `You Lose! Paper beats Rock!`;
@@ -50,7 +50,7 @@ function playRound(playerSelection, computerSelection, score) {
           score[0]++;
           break;
         case "paper":
-          round_result = `It's a draw.`;
+          round_result = `It's a tie.`;
           break;
         case "scissors":
           round_result = "You Lose! Scissors beats Paper";
@@ -68,7 +68,7 @@ function playRound(playerSelection, computerSelection, score) {
           score[0]++;
           break;
         case "scissors":
-          round_result = `It's a draw`;
+          round_result = `It's a tie`;
       }
   }
   return round_result;
@@ -113,7 +113,7 @@ function game() {
       } else if (score[0] < score[1]) {
         alert("Computer Wins! Game Over...");
       } else {
-        alert("The Game is a Draw");
+        alert("The Game is a tie");
       }
     }
   }
