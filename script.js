@@ -21,7 +21,7 @@ function userPlay() {
     ) {
       return user_input;
     } else {
-      alert("Please choose between rock, paper or scissors.");
+      alert("Error!, Please choose between rock, paper or scissors.");
     }
   }
 }
