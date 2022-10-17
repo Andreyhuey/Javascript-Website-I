@@ -98,9 +98,11 @@ function game() {
     // The first to win 3 rounds Wins.
     if (i >= 2) {
       if (score[0] == 3) {
+        console.log("Congratulations! You Won The Game!!!");
         alert("Congratulations! You Won The Game!!!");
         break;
       } else if (score[1] == 3) {
+        console.log("Congratulations! You Won The Game!!!");
         alert("Computer Wins! Game Over...");
         break;
       }
@@ -109,10 +111,13 @@ function game() {
     // whoever has the highest score at the end of the game wins
     if (i == 4) {
       if (score[0] > score[1]) {
+        console.log("Congratulations! You Won The Game!!!");
         alert("Congratulations! You Won The Game!!!");
       } else if (score[0] < score[1]) {
+        console.log("Computer Wins! Game Over...");
         alert("Computer Wins! Game Over...");
       } else {
+        console.log("The Game is a tie");
         alert("The Game is a tie");
       }
     }
